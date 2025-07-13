@@ -1,8 +1,12 @@
 
-`calculating the cost of ordered droids`
+//calculating the cost of ordered droids
 
 function makeTransaction(quantity, pricePerDroid) {
+
+  //Обчислюємо загальну вартість замовлення
   const totalPrice = quantity * pricePerDroid;
+
+   // Повертаємо вартість
   return `You ordered ${quantity} droids worth ${totalPrice} credits!`;
 }
 
